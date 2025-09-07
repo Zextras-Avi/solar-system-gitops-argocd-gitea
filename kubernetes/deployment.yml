@@ -17,12 +17,13 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: siddharth67/solar-system:85a040728c458d3dea1e44285a4dba382ab7e93c
+      - image: siddharth67/heliocentric-solar-system:no-pluto
         imagePullPolicy: Always
         name: solar-system
         ports:
         - containerPort: 3000
           name: http
           protocol: TCP
+
 
 
